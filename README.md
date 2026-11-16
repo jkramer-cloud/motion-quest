@@ -1,4 +1,4 @@
-# Motion Quest — v1.6 illustrated motion update
+# Motion Quest — v1.9 Strength School and Pogo Stretching
 
 **Move · Flow · Grow**
 
@@ -21,7 +21,7 @@ Upload `index.html` and the entire `assets/` directory to the root of a GitHub r
 
 ## Important visual fidelity note
 
-The finished character art is used for **actual cards and coach screens**, not placeholder emoji. The workout screen now includes a dedicated **animated guided movement demo panel** for the nine-move flow, stretches, and beginner strength variations. These demos are simplified coaching visuals inside the app and are meant to support the live technique cues—not replace careful form instruction or professional guidance. The original video remains linked from the app so users can compare the source routine when helpful.
+The finished character art is used for **actual cards and coach screens**, not placeholder emoji. The app uses 9 illustrated movement loops for Ollie and 6 illustrated mobility loops for Pogo. Bramble has a polished illustrated wall-push-up loop. Other strength variations currently use stylized movement sketches plus variation-specific form instructions. They should not be mistaken for full production-quality character animations or individualized exercise instruction. The original video remains linked from the app so users can compare the source routine when helpful.
 
 ## Health and privacy
 
@@ -77,7 +77,7 @@ This release adds an in-app animated coach demo area to the workout screen. The 
 The demo panel stays inside the workout screen and is designed to remain readable beside the timer and live cues on smaller screens. The selected strength variation changes the demo that is shown. Existing progress, achievements, challenge rules, and assets are preserved.
 
 
-## v1.6 — Polished illustrated motion, phase one
+## v1.7 — Polished illustrated motion, phase one
 
 - Three movement-specific, frame-by-frame illustrated Ollie sequences: breathing/reach, arm waves, and wide-stance ballet squats. These new assets are stored under `assets/demos/` and must be uploaded with the revised `index.html`.
 - Coach-specific SVG guide designs for Ollie, Pogo, Bramble, Zip, Draco, and Lumi, replacing the identical rabbit head used for every coach in the prior build.
@@ -89,3 +89,27 @@ The demo panel stays inside the workout screen and is designed to remain readabl
 **Important:** This is not the final illustrated animation set. Only the three named motions have full-color frame assets; other movement examples still use simplified coach-specific vector sketches. They are visual reminders, not anatomically certified form instruction. Complete, polished form-accurate animation assets for all nine flow movements, stretches, and strength variations remain a production goal. Do not represent these simplified sketches as professional form demonstrations.
 
 **Updating an existing repository:** Upload the revised `index.html` and the **new `assets/demos/` folder**. Keep the existing `assets/*.webp` character portraits. Updating `README.md` is optional. For a new repository, upload the entire complete package.
+
+
+## v1.9 — Bramble’s Strength School and Pogo’s Stretching
+
+This release preserves the previous full app, including Ollie's 9-movement flow, its achievements, timers, voice controls, challenge rules, and local data format.
+
+**New:** Six full-color illustrated Pogo loops are included for the stretch routine and the warm-up in Start My Morning: breathing & reaching, shoulder rolls, neck turns, arm circles, hip shifts, and gentle steps.
+
+**New:** Bramble's Strength School gives a different technical guide for every one of the 23 selectable entries across five exercise families: 5 push-up options, 4 squat options, 5 core options, 5 pulling choices (including skip), and 4 glute/balance options.
+
+- Open Workouts and select each exercise's level; click **Preview form** for a no-timer practice screen.
+- Every variation includes its own setup, movement, breathing, common mistakes, easier option, and equipment guidance.
+- The same variation-specific cues appear beside the active workout timer, and switching variations changes the guidance.
+- The beginner wall push-up has its own illustrated frame-by-frame Bramble loop (6 frames). Other strength variations still use labeled stylized sketches and written guidance; do **not** treat these as finished photographic or pose-verified character demonstrations.
+- A compact pinned movement clock appears on mobile workout screens, keeping the countdown and current move visible while scrolling.
+- Art assets and records remain browser-local. No additional hosting or service dependencies are required.
+
+### Update your existing GitHub repository
+
+If you have v1.7 already, use the v1.9 Update Only ZIP: replace `index.html`, add the new `assets/demos/pogo-*` folders, and add `assets/demos/bramble-wall`. `README.md` is recommended but optional. Keep all existing `assets/demos/ollie-*` and `assets/*.webp` unchanged. The full ZIP includes everything and can replace the repository contents instead. **Do not upload the ZIP itself**; extract and preserve the folder structure. No additional `docs` folder changes are necessary for this incremental update.
+
+### Visual-quality limitations
+
+Animated illustrations are instructional approximations and have not been validated by a qualified exercise professional. The Bramble image generation successfully produced the complete wall push-up loop, but production-quality illustrated loops for the other 21 non-skip strength choices still require individual artwork and review. The app distinguishes these from illustrated loops rather than pretending they are complete.
