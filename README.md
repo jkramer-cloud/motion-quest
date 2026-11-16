@@ -1,4 +1,4 @@
-# Motion Quest — v1.9 Strength School and Pogo Stretching
+# Motion Quest — v2.0 Quest Crew Practice, Audio & Mobile
 
 **Move · Flow · Grow**
 
@@ -113,3 +113,16 @@ If you have v1.7 already, use the v1.9 Update Only ZIP: replace `index.html`, ad
 ### Visual-quality limitations
 
 Animated illustrations are instructional approximations and have not been validated by a qualified exercise professional. The Bramble image generation successfully produced the complete wall push-up loop, but production-quality illustrated loops for the other 21 non-skip strength choices still require individual artwork and review. The app distinguishes these from illustrated loops rather than pretending they are complete.
+
+
+## v2.0 — Zip, Lumi, Draco / Audio and Mobile update
+
+- A new **Practice with the Quest Crew** panel in Workouts offers full no-timer practice screens and movement selection for Zip, Lumi, and Draco, with illustrations where available, form cues, gentler versions, and saved strength variations.
+- Zip’s Quick Boost now has independent anime-style illustrated loops for marching and low-impact hops. His arm waves and wide-stance squat still use coach-specific animated sketches with their original form cues.
+- Lumi’s four Recovery & Calm exercises now include coach-specific spoken/written recovery guidance and gentle adjustments. The illustrated character portrait remains in the app; detailed, exercise-specific full-color frame sequences for Lumi are still an artwork task.
+- Draco’s Challenge Quest now provides exercise-by-exercise coaching for all eight steps and respects the user’s chosen strength variation. His challenge movements use the existing form sketches unless another illustrated coach demonstration is available; do not interpret them as new fully animated dragon sprites.
+- Audio mixer: gentle/arcade/soft/silent chimes, adjustable sound volume, exercise name vs. short vs. full form announcements, three-second sound toggle, in-workout Mute, and preview. Voice choices depend on browser/device.
+- Mobile: more compact illustration/timer/instruction layout, enlarged touch targets, preserved sticky countdown, in-demo remaining-time readout, improved phone landscape layout, optional supported screen-awake setting (HTTPS and device permitting), Focus Mode, and reduced-motion behavior.
+- Full GitHub upload and a smaller update-only package are included. No account is needed and the storage key is unchanged.
+
+**What remains:** full-color, exercise-specific illustrated animations for Lumi, Draco and the remaining Zip exercises, plus most of Bramble’s non-wall-push-up strength variations. Animations are creative teaching aids and have not had professional technique review.
