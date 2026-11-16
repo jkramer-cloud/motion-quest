@@ -126,3 +126,20 @@ Animated illustrations are instructional approximations and have not been valida
 - Full GitHub upload and a smaller update-only package are included. No account is needed and the storage key is unchanged.
 
 **What remains:** full-color, exercise-specific illustrated animations for Lumi, Draco and the remaining Zip exercises, plus most of Bramble’s non-wall-push-up strength variations. Animations are creative teaching aids and have not had professional technique review.
+
+
+## v2.1 — The Adventure Begins
+
+The v2.1 update expands the existing workout-focused prototype with tangible game rewards:
+
+- Permanent lifetime XP: all completed daily and weekly quest bonuses are recalculated from **all saved session dates**, so the lifetime total no longer drops at midnight.
+- Six illustrated, selectable training worlds (Sunrise Meadow, Bamboo Sanctuary, Crystal Caverns, Cloudpeak Terrace, Dragon Summit, Moonlit Garden) unlocking at fixed lifetime XP thresholds. The selected world appears behind your workout demonstration and as an illustrated location banner.
+- Every Quest Crew coach gains independent training XP and coach levels for workouts associated with their specialty (regardless of which favorite coach is displayed).
+- 12 milestone treasure chests. Each chest can be claimed **once**, awarding collectible Starlight; Starlight is a keepsake score, not purchasable or spendable currency.
+- Collectible illustrated medal styling for the achievement gallery, plus four permanent 67-day victory relics for Explorer, Momentum, Iron Quest and Custom Quest.
+- Reward animations for new badges, level-ups, chest claims and day 67. The full illustrated Quest Crew celebrates a completed 67-day challenge.
+- Weekly quests and improved XP breakdown. Reward triggers come from completed, locally stored workout records. No account, connection, leaderboard, or money involved.
+
+The adventure's missed-day rules remain unchanged. For safety, reward credits never depend on weight or unusually intense exercise. Prior v2.0 local progress stays compatible because the same storage key and data fields are retained; exports/imports include the added world, chest, and relic fields. Previously earned achievement IDs are preserved.
+
+**Important testing note:** automatic reward calculations can be triggered from self-reported/local browser records. This is not a tamper-resistant verification of physical exercise. Browser-only data is not shared or synced between devices. New background artwork is original and bundled under `assets/worlds/`.
