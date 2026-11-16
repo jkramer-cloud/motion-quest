@@ -1,4 +1,4 @@
-# Motion Quest — v1.5 guided movement demo update
+# Motion Quest — v1.6 illustrated motion update
 
 **Move · Flow · Grow**
 
@@ -75,3 +75,17 @@ This release adds an in-app animated coach demo area to the workout screen. The 
 - beginner strength variations for push-up, squat, core, pulling, and glute practice
 
 The demo panel stays inside the workout screen and is designed to remain readable beside the timer and live cues on smaller screens. The selected strength variation changes the demo that is shown. Existing progress, achievements, challenge rules, and assets are preserved.
+
+
+## v1.6 — Polished illustrated motion, phase one
+
+- Three movement-specific, frame-by-frame illustrated Ollie sequences: breathing/reach, arm waves, and wide-stance ballet squats. These new assets are stored under `assets/demos/` and must be uploaded with the revised `index.html`.
+- Coach-specific SVG guide designs for Ollie, Pogo, Bramble, Zip, Draco, and Lumi, replacing the identical rabbit head used for every coach in the prior build.
+- Improved mobile demonstration sizing, a visible coach portrait, and working separate pause and slower-speed controls for the new illustrated frame sequences.
+- A corrected app initialization order: challenge presets now initialize before the app state is created. This fixes a potential startup failure present in v1.5.
+- `Replay cues` now announces the actual technique cues (when the browser's speech system is available), not just the exercise name.
+- Existing workout history, 162 achievements, the 67-day challenge, strength levels, and settings remain saved in the same browser storage.
+
+**Important:** This is not the final illustrated animation set. Only the three named motions have full-color frame assets; other movement examples still use simplified coach-specific vector sketches. They are visual reminders, not anatomically certified form instruction. Complete, polished form-accurate animation assets for all nine flow movements, stretches, and strength variations remain a production goal. Do not represent these simplified sketches as professional form demonstrations.
+
+**Updating an existing repository:** Upload the revised `index.html` and the **new `assets/demos/` folder**. Keep the existing `assets/*.webp` character portraits. Updating `README.md` is optional. For a new repository, upload the entire complete package.
