@@ -1,4 +1,4 @@
-# Motion Quest — first working prototype
+# Motion Quest — v1.1 working prototype
 
 **Move · Flow · Grow**
 
@@ -15,9 +15,9 @@ Upload `index.html` and the entire `assets/` directory to the root of a GitHub r
 - Six 30-second warm-up movements; combined start-my-morning routine totals 12 minutes.
 - Gentle recovery and quick workout options; timed bodyweight strength circuit.
 - Individual strength-variation choices saved on this device.
-- Large color-changing timer; pause, restart, skip, and end controls; optional short transitions, chimes, and browser voice announcements.
+- Large color-changing timer; pause, restart, skip, and end controls; optional short transitions, chimes, and browser voice announcements with selectable device voices, adjustable narration speed, and a voice preview.
 - Basic workout history, week graph, 14-day calendar, streak, optional energy rating, backup/import, and self-reported weekly report.
-- Responsive layout and reduced-motion control.
+- Responsive phone/tablet layout, optional larger Workout Focus Mode, and reduced-motion control.
 
 ## Important visual fidelity note
 
@@ -33,3 +33,10 @@ Movement suggestions are generic, low-pressure and include alternatives. This is
 - `assets/*.webp` — six real game-style coach illustrations.
 - `docs/design-system.md` — cast, brand, screen map, and release scope.
 
+
+## What's new in v1.1
+
+- **Choose a voice** in Settings: enable Spoken cues, select a device voice/accent, choose speaking speed, and press Preview voice. This uses the built-in Web Speech API; voice choices vary by browser/device and may require installed speech packs. No recorded character-specific voice actors are included.
+- **Phone layout** is automatic: navigation moves to the bottom and workout panels stack for narrow screens. There is no separate mobile URL or mobile file.
+- **Workout Focus Mode** can be enabled from Settings or directly during a workout to hide navigation and give more space to the coach image and timer. Switch off using Exit focus view.
+- Existing local progress is preserved when overwriting the repository with v1.1 files in the same site/origin.
